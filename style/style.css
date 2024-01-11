@@ -9,9 +9,9 @@
 }
 
 .big-box {
-/*	background-color: #f5f5f5;*/
 	width: 1400px;
-	height: 7000px;
+	height: 7200px;
+	background-color: #fff;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -19,7 +19,7 @@
 .container {
 /*	background-color: red;*/
 	width: 940px;
-	height: 7000px;
+	height: 7200px;
 	margin: 0 auto;
 }
 .box-top {
@@ -35,6 +35,10 @@
 	color: #363940;
 	margin: 15px;
 }
+.list-icon {
+	margin-top: 5px;
+	margin-right: 44px;
+}
 .list:nth-child(1) {
 	margin: 5px 10px 0px 0px;
 }
@@ -43,7 +47,7 @@
 }
 .list-right {
 	color: #6E38F7;
-	margin: 6px 15px 0px 280px;
+	margin: 6px 15px 0px 262px;
 }
 .list-right-2 {
 	color: #6E38F7;
@@ -64,6 +68,7 @@
 	color: #363940;
 }
 .btn {
+	border-radius: 4px;
 	transition: 1s;
 	font-size: 15px;
 	color: #fff;
@@ -78,6 +83,7 @@
 	border: 1px solid	#6E38F7; 
 }
 .btn2 {
+	border-radius: 4px;
 	transition: 1s;
 	margin: 10px;
 	background-color: #fff;
