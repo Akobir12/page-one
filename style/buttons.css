@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+}
+
+.btn-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.btn-hero .hero-btn {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 180px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btn-hero .hero-btn button {
+    overflow: hidden;
+}
+
+.btn1 .fa-telegram,
+.btn20 .fa-youtube,
+.btn3 .fa-facebook {
+    transition: all 0.3s;
+}
+
+.btn1:hover .fa-telegram,
+.btn20:hover .fa-youtube,
+.btn3:hover .fa-facebook {
+    transform: scale(0.7);
+    animation: iconAnim 0.5s linear infinite;
+    animation-delay: 0.3s;
+}
+
+@keyframes iconAnim {
+    0% {
+        transform: scale(0.7);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+}
+
+
+/* btn 1 start*/
+
+.btn-hero .hero-btn .btn1 {
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    transition: all 0.3s;
+    font: 500 25px/22px Rubik;
+    width: 45px;
+    border-radius: 50%;
+    height: 65px;
+    border: 0;
+}
+
+.btn-hero .hero-btn .btn1:hover {
+    width: 200px;
+}
+
+.btn-hero .hero-btn .btn1.btn1::before {
+    margin-top: -1px;
+    position: absolute;
+    left: 100px;
+    top: 22px;
+    transition: 0.3s;
+    margin-left: 100px;
+    border: 0;
+    background-color: transparent;
+    color: transparent;
+    font-size: 20px;
+    content: "Telegram";
+}
+
+.btn-hero .hero-btn .btn1.btn1:hover::before {
+    left: 50px;
+    margin-left: 0px;
+    border: 0;
+    padding: 19px 0px 0px -10px;
+    background-color: transparent;
+    color: dodgerblue;
+    font-size: 22px;
+    content: "Telegram";
+}
+
+
+/* btn 1 end */
+
+
+/* btn 2 start*/
+
+.btn-hero .hero-btn .btn20 {
+    cursor: pointer;
+    margin: 15px 15px 15px 0px;
+    position: relative;
+    background-color: transparent;
+    transition: all 0.3s;
+    font: 500 25px/22px Rubik;
+    width: 45px;
+    border-radius: 50%;
+    height: 65px;
+    border: 0;
+}
+
+.btn-hero .hero-btn .btn20:hover {
+    width: 200px;
+}
+
+.btn-hero .hero-btn .btn20.btn20::before {
+    margin-top: -2px;
+    transition: 0.3s;
+    margin-left: 100px;
+    position: absolute;
+    left: 100px;
+    top: 22px;
+    border: 0;
+    background-color: transparent;
+    color: transparent;
+    font-size: 20px;
+    content: "Youtube";
+}
+
+.btn-hero .hero-btn .btn20.btn20:hover::before {
+    margin-left: 0px;
+    border: 0;
+    left: 50px;
+    padding: 19px 0px 0px -10px;
+    background-color: transparent;
+    color: red;
+    font-size: 22px;
+    content: "Youtube";
+}
+
+
+/* btn 2 end */
+
+
+/* btn 3 start*/
+
+.btn-hero .hero-btn .btn3 {
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    transition: all 0.3s;
+    font: 500 25px/22px Rubik;
+    width: 45px;
+    border-radius: 50%;
+    height: 65px;
+    border: 0;
+}
+
+.btn-hero .hero-btn .btn3:hover {
+    width: 200px;
+}
+
+.btn-hero .hero-btn .btn3.btn3::before {
+    margin-top: -1px;
+    position: absolute;
+    left: 100px;
+    top: 22px;
+    transition: 0.3s;
+    margin-left: 100px;
+    border: 0;
+    background-color: transparent;
+    color: transparent;
+    font-size: 20px;
+    content: "Facebook";
+}
+
+.btn-hero .hero-btn .btn3.btn3:hover::before {
+    left: 50px;
+    margin-left: 0px;
+    border: 0;
+    padding: 19px 0px 0px -10px;
+    background-color: transparent;
+    color: blue;
+    font-size: 22px;
+    content: "Facebook";
+}
+
+
+/* btn 2 end */
